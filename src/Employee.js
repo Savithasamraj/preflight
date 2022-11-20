@@ -27,7 +27,7 @@ function Employee() {
     
     <div className="container">
       <input
-        placeholder="enter ur name"
+        placeholder="enter ur employee id"
         onChange={(e) => UserContexts.setname(e.target.value)}
       ></input>
       <button type="button" onClick={() => employee(UserContexts.name)}class="btn btn-primary">Employee</button>
