@@ -11,7 +11,7 @@ function Employee() {
 
   const employee = async (name) => {
     const values = await axios.post(
-      `https://employee-ee.herokuapp.com//employee/${name}`,
+      `https://employee-ee.herokuapp.com/employee/${name}`,
       name
     );
     console.log(values.data.collection);
