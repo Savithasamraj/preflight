@@ -91,6 +91,14 @@ function Employee() {
     {ele.employeeid}
     </div>
   </div>
+  <div class="row">
+    
+    <div class="col-lg-6">
+    <label className="label">country:</label>
+    {ele.address.country}
+    </div>
+    
+  </div>
 </div>
           </>
         );
